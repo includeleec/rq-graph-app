@@ -1,7 +1,7 @@
 import { useQuery } from "react-query";
 import { GraphQLClient, gql } from "graphql-request";
 
-const API_URL = `http://graph.dedrops.xyz/v1/graphql`;
+const API_URL = `https://graph.dedrops.xyz/v1/graphql`;
 
 
 const graphQLClient = new GraphQLClient(API_URL, {
